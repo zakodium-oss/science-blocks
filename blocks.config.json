@@ -1,12 +1,12 @@
 [
   {
     "type": "file",
-    "id": "file-block",
-    "title": "Example File Block",
-    "description": "A basic file block",
-    "entry": "blocks/example-file-block/index.tsx",
-    "matches": ["*"],
-    "example_path": "https://github.com/facebook/react/blob/main/packages/react-dom/index.js"
+    "id": "molfile-block",
+    "title": "Molfile Block",
+    "description": "A block to display a molecule",
+    "entry": "blocks/molfile-block/index.tsx",
+    "matches": ["*.mol"],
+    "example_path": "https://github.com/cheminfo/nmrium/blob/main/public/data/cytisine/cytisine.mol"
   },
   {
     "type": "folder",
